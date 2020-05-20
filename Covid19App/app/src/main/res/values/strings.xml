@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Covid 19 APP</string>
+    <string name="about_covid">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus. Most people who fall shick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</string>
+    <string name="sample_text">There are many variations of passages of Lorem Ipsum available</string>
+    <string name="covid_detail_one">Coronavirus disease (COVID-19) is an infectious desease caused by a newly discovered coronarius. Most people whoo fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.</string>
+    <string name="covid_detail_two">The virus that causes COVID-19 is manely transmitted though droplets generated when an infected person caughs, sneezes or exhales. These droplets are too heavy and hang in the air, and quickly fall on floors or surfaces. \n\nYou can be infected by breathing in the virus if you are within close proximity of someone who has COVID-19, or by touching a contaminated surface and then your eyes, nose or mouth</string>
+</resources>
