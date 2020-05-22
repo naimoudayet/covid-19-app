@@ -20,7 +20,7 @@ class PrecautionsActivity : AppCompatActivity() {
         // soap
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.soap,
                 "Hand Wash",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -28,7 +28,7 @@ class PrecautionsActivity : AppCompatActivity() {
         // home
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.home,
                 "Stay Home",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -36,7 +36,7 @@ class PrecautionsActivity : AppCompatActivity() {
         // distance
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.distance,
                 "Social Distance",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -44,7 +44,7 @@ class PrecautionsActivity : AppCompatActivity() {
         // clean
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.clean,
                 "Clean Object & Surface",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -52,7 +52,7 @@ class PrecautionsActivity : AppCompatActivity() {
         // cover
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.cover,
                 "Avoid Touching",
                 "There are many variations of passages of Lorem Ipsum available"
             )

@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         // cough
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.cough,
                 "Dry Cough",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -36,16 +36,17 @@ class MainActivity : AppCompatActivity() {
         // fever
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.fever,
                 "Fever",
                 "There are many variations of passages of Lorem Ipsum available"
             )
         )
-        // pain
+
+        // nose
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
-                "Pain",
+                R.drawable.nose,
+                "Nose",
                 "There are many variations of passages of Lorem Ipsum available"
             )
         )
@@ -64,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         // soap
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.soap,
                 "Hand Wash",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -72,7 +73,7 @@ class MainActivity : AppCompatActivity() {
         // home
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.home,
                 "Stay Home",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -80,7 +81,7 @@ class MainActivity : AppCompatActivity() {
         // distance
         precautionsList.add(
             PrecautionsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.distance,
                 "Social Distance",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -91,6 +92,21 @@ class MainActivity : AppCompatActivity() {
         recycler_view_precautions.adapter = precautionsAdapter
 
         //
+
+        cardInfected.setOnClickListener{
+            val intent = Intent(this@MainActivity, InfectedActivity::class.java)
+            startActivity(intent)
+        }
+
+        cardRecovered.setOnClickListener{
+            val intent = Intent(this@MainActivity, RecoveredActivity::class.java)
+            startActivity(intent)
+        }
+
+        cardDeceased.setOnClickListener{
+            val intent = Intent(this@MainActivity, DeceasedActivity::class.java)
+            startActivity(intent)
+        }
 
         btnKnowMore.setOnClickListener{
             val intent = Intent(this@MainActivity, KnowMoreActivity::class.java)

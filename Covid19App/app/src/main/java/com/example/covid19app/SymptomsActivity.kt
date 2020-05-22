@@ -19,7 +19,7 @@ class SymptomsActivity : AppCompatActivity() {
         // cough
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.cough,
                 "Dry Cough",
                 "There are many variations of passages of Lorem Ipsum available"
             )
@@ -27,24 +27,43 @@ class SymptomsActivity : AppCompatActivity() {
         // fever
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.fever,
                 "Fever",
                 "There are many variations of passages of Lorem Ipsum available"
             )
         )
+
+        // nose
+        symptomsList.add(
+            SymptomsModel(
+                R.drawable.nose,
+                "Nose",
+                "There are many variations of passages of Lorem Ipsum available"
+            )
+        )
+
         // pain
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.pain,
                 "Pain",
                 "There are many variations of passages of Lorem Ipsum available"
             )
         )
+
         // sore throat
         symptomsList.add(
             SymptomsModel(
-                R.drawable.ic_launcher_foreground,
+                R.drawable.sore_throat,
                 "Sore Throat",
+                "There are many variations of passages of Lorem Ipsum available"
+            )
+        )
+        // fatique
+        symptomsList.add(
+            SymptomsModel(
+                R.drawable.fatique,
+                "Fatique",
                 "There are many variations of passages of Lorem Ipsum available"
             )
         )

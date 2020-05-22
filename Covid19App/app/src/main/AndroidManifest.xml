@@ -6,12 +6,15 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SymptomsActivity"></activity>
+        <activity android:name=".DeceasedActivity"></activity>
+        <activity android:name=".RecoveredActivity" />
+        <activity android:name=".InfectedActivity" />
+        <activity android:name=".SymptomsActivity" />
         <activity android:name=".PrecautionsActivity" />
         <activity android:name=".KnowMoreActivity" /> <!-- for legacy android versions -->
         <uses-library
